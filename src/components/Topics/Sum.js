@@ -21,8 +21,7 @@ class Sum extends Component {
   }
 
   add() {
-    var solution = this.state.number1 += this.state.number2;
-    console.log(solution);
+    var solution = this.state.number1 + this.state.number2;
     this.setState({
       sum: solution
     })
